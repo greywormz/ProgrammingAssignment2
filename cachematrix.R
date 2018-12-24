@@ -3,6 +3,8 @@
 
 ## Write a short comment describing this function
 
+#returns a list of cached inverted matrix 
+
 makeCacheMatrix <- function(x = matrix()) {
   inverted <- NULL
   set <- function(y){
@@ -21,6 +23,8 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
+
+#check if the matrix is arealy cached inverted, if it is, returns it, if not, invert it and, return.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
